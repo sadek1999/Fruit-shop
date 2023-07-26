@@ -18,13 +18,7 @@
         font-family: 'Lato', sans-serif;
       
     }
-    .bg-img{
-       background: linear-gradient(rgb(0,0,6),rgb(0,0,3),url(images/team.png));
-      
-       background-repeat: no-repeat; 
-       background-size: cover;
-
-    }
+    
 </style>
 </head>
 <body class="font-lato ">
@@ -67,49 +61,42 @@
                   
         </nav>
         <!--  .......banner slide..... -->
-        <section>
-          <div class="carousel w-full">
-            <div id="slide1" class="carousel-item justify-center items-center  bg-contain relative w-full" style="background-image: url(images/banner1.png);background-repeat: no-repeat;">
-              <div class="space-y-5 h-20 md:h-60 md:w-[500px] text-center">
-                <h3 class="  font-extrabold tex-3xl md:text-5xl text-center text-white">Exotic tastes at your <br> doorstep</h3>
-                <p class="text-white">We supply highly quality organic products</p>
-                <button class="btn text-white bg-red-400">Show Now</button>
+        
+        <section class="items-center z-10  ">
+          <div class="card w-[500px]  bg-white opacity-20 absolute z-30 shadow-xl">
+              
+            <div class="card-body items-center text-center">
+              <h2 class="card-title font-extrabold text-4xl">Exotic tastes at your doorstep</h2>
+              <p>We supply highly quality organic products</p>
+              <div class="card-actions">
+                <button class="btn btn-primary">Buy Now</button>
               </div>
+            </div>
+          </div>
+         
+          <div class="carousel relative w-full">
+            <div id="slide1" class="carousel-item relative w-full">
+              <img src="/images/banner1.png" class="w-full" />
               <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                 <a href="#slide4" class="btn btn-circle">❮</a> 
                 <a href="#slide2" class="btn btn-circle">❯</a>
               </div>
             </div> 
-            <div id="slide2" class="carousel-item relative w-full items-center justify-center bg-contain"style="background-image: url(images/banner2.png);background-repeat: no-repeat;">
-               
-
-              <div class="space-y-5 h-60 w-[500px] text-center">
-                <h3 class="font-extrabold text-5xl text-center text-white">Exotic tastes at your <br> doorstep</h3>
-                <p class="text-white">We supply highly quality organic products</p>
-                <button class="btn text-white bg-red-400">Show Now</button>
-              </div>
-
-
+            <div id="slide2" class="carousel-item relative w-full">
+              <img src="/images/banner2.png" class="w-full" />
               <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                 <a href="#slide1" class="btn btn-circle">❮</a> 
                 <a href="#slide3" class="btn btn-circle">❯</a>
               </div>
             </div> 
-            <div id="slide3" class="carousel-item relative w-full items-center justify-center bg-contain"style="background-image: url(images/banner3.png);background-repeat: no-repeat;">
-              
-              <div class="space-y-5 h-60 w-[500px] text-center">
-                <h3 class="font-extrabold text-5xl text-center text-white">Exotic tastes at your <br> doorstep</h3>
-                <p class="text-white">We supply highly quality organic products</p>
-                <button class="btn text-white bg-red-400">Show Now</button>
-              </div>
-              
+            <div id="slide3" class="carousel-item relative w-full">
+              <img src="/images/banner3.png" class="w-full" />
               <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                 <a href="#slide2" class="btn btn-circle">❮</a> 
                 <a href="#slide4" class="btn btn-circle">❯</a>
               </div>
             </div> 
-            <div id="slide4" class="carousel-item relative w-full ">
-
+            <div id="slide4" class="carousel-item relative w-full">
               <img src="/images/banner4.png" class="w-full" />
               <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                 <a href="#slide3" class="btn btn-circle">❮</a> 
@@ -117,6 +104,9 @@
               </div>
             </div>
           </div>
+          
+           
+          
         </section>
 
     </header>
@@ -583,7 +573,7 @@
       </section>
 
     </main>
-    <footer class="footer footer-center p-10 mt-[900px] bg-black text-primary-content">
+    <footer class="footer footer-center p-10 mt-20 bg-black text-primary-content">
       <div>
         <div class="flex gap-3 items-center">
           <img src="images/logo.png" alt="">
