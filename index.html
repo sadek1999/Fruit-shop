@@ -63,13 +63,13 @@
         <!--  .......banner slide..... -->
         
         <section class="items-center z-10  ">
-          <div class="card   w-[700px] ml-96 mt-40 absolute  z-30 shadow-xl">
+          <div class="card w-60 ml-20 gap-4 md:h-[200px] md:w-[700px] md:ml-96 md:mt-40 absolute  z-30 ">
               
-            <div class="card-body items-center text-white text-center">
-              <h2 class="card-title font-extrabold text-5xl">Exotic tastes at your <br> doorstep</h2>
+            <div class=" card-body  p-0 items-center text-white text-center">
+              <h2 class="card-title font-extrabold  md:text-5xl">Exotic tastes at your <br> doorstep</h2>
               <p>We supply highly quality organic products</p>
               <div class="card-actions">
-                <button class="p-5  w-40 rounded-xl text-white bg-red-400" > Show Now </button>
+                <button class="p-5 md:btn w-40 rounded-xl text-white bg-red-400" > Show Now </button>
               </div>
             </div>
           </div>
@@ -105,21 +105,44 @@
             </div>
           </div>
           
-           
+          <div class="bg-red-400 gap-10 w-[1000px] p-14 rounded-xl ml-56  hidden md:flex z-50 -mt-40">
+            <div class="items-center">
+              <img src="images/fruit1.png" alt="">
+              <p></p>
+            </div>
+            <div class="items-center">
+              <img src="images/fruit2.png" alt="">
+              <p>orange</p>
+            </div>
+            <div class="items-center">
+              <img src="images/fruit3.png" alt="">
+              <p>Mango</p>
+            </div>
+            <div class="items-center">
+              <img src="images/fruit4.png" alt="">
+              <p>Strawberry</p>
+            </div>
+            <div class="items-center">
+              <img src="images/fruit5.png" alt="">
+              <p>pomegranate</p>
+            </div>
+  
+           </div>
           
         </section>
+        
 
     </header>
-    <main class=" mx-4 md:mx-32 mt-40">
+    <main class="  md:mx-32 mt-40">
       <!-- ........deal of day..... -->
       <section class="space-y-10 ">
         <div class="flex flex-col-reverse md:flex-row justify-between">
           <div>
             <h2 class="font-extrabold text-5xl">Deal of the day</h2>
-            <p>Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
+            <p class="text-[10px]md:text-xl w-96 md:w-full">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
           </div>
          <div>
-          <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
+          <div class="grid grid-flow-col md:gap-5 text-center auto-cols-max">
             <div class="flex flex-col">
               <span class="countdown font-mono text-5xl">
                 <span style="--value:29;"></span>:
@@ -363,11 +386,15 @@
             </div>
           </div>
         </div>
-        <div class="bg-purple-300 px-32 md:px-[500px]
-          ">
-          <button class="btn btn-primary ">Show All</button>
+        <div class="card w-full  ">
+         
+          <div class="card-body items-center text-center">
+            
+            <div class="card-actions">
+              <button class="p-5 rounded-xl bg-red-400 text-white">Buy Now</button>
+            </div>
+          </div>
         </div>
-
       </section>
       <!-- ...Meat the team... -->
       <section class="mt-20">
@@ -579,7 +606,7 @@
           <img src="images/logo.png" alt="">
          <h2 class="font-bold text-4xl">Fruit Burst</h2>
          </div>
-         <div class="flex gap-10">
+         <div class="flex  gap-10">
           <p class="font-bold"> Home</p>
           <p class="font-bold"> About us </p>
           <p class="font-bold"> Shop</p>
@@ -598,5 +625,6 @@
         </div>
       </div>
     </footer>
+   
 </body>
 </html>
